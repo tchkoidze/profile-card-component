@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  overflow: hidden;
+  background-color: #19a1ae;
+  background-image: url("/images/bg-pattern-top.svg"),
+    url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 55vw bottom 30vh, left 52vw top 44vh;
+  font-family: "Kumbh Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2e3349;
+}
+
+.card {
+  width: 32.6rem;
+  background: #ffffff;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.pattern-card {
+  position: relative;
+  height: 14rem;
+  background: url(./images/bg-pattern-card.svg);
+}
+
+img {
+  position: absolute;
+  top: 64%;
+  left: 35%;
+
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  text-align: center;
+  margin: 7.2rem 0 1.3rem 0;
+}
+
+span {
+  font-weight: 400;
+  color: #6b7082;
+}
+
+.london {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  text-align: center;
+
+  color: #6b7082;
+}
+
+.sosial-activness-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4rem 5.2rem 2.7rem 4.1rem;
+  border-top: 1px solid #e8e9ec;
+  margin-top: 2.8rem;
+}
+
+.sosial-activness-container p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.8rem;
+  text-align: center;
+  padding-bottom: 9px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 1.5px;
+
+  color: #6b7082;
+}
+/*responsive design for desktop*/
+@media (min-width: 1440px) {
+  .card {
+    width: 35rem;
+  }
+}
